@@ -50,16 +50,24 @@ while True:
       print()
       continue
 
-while True:
-    q21_ans = input("Do you wish to have wings and fly away? \na) Yes away we go!, \nb) No thanks i'll walk, \nc) You dont need wings to fly. \n>")    
+  while True:
+
+    q2_ans = input()
+
     if q2_ans.lower() == "a":
-        affinity_total ==break
-    elif q2_ans.lower() == "b":      affinity_total = + 1      break
+      affinity_total = + 3
+      break
+
+    elif q2_ans.lower() == "b":
+      affinity_total = + 1
+      break
+
     elif q2_ans.lower() == "c":
-      affinity_total = + 10      break
+      affinity_total = + 10
+      break
     else :
       print()
       print("Please select an answer.")
-
-
+      print()
+      continue
 
