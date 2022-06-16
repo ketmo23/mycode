@@ -198,21 +198,29 @@ if affinity_total in range(1,8):
     print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
     input()
     print("Congratulations!! Your starter is Squirtl!")
+#Display pokedex data for Squirlt.
 
 elif affinity_total in range(9,16):
     print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
     input()
     print("Congratulations!! Your starter is Bulbasaur!")
+#Display pokedex data for Bulbasur.
+
 
 elif affinity_total in range (17,30):
     print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
     input()
     print("Congratulations!! Your starter is Charmander!")
+#Display pokedex data for Charmander.
+    
 
 elif affinity_total in range (31,50):
     print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
     input()
     print("Congratulations!! Pikachu has chosen you!")
+#Display pokedex data for Pikachu.
+
+
 
 #ref of points total
 print()
