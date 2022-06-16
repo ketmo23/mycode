@@ -11,6 +11,7 @@ input()
 answer = input("Are you ready to start your journey? \n>")
 
 if answer.lower() == "yes":
+        print()
         print("Great! Before we begin.. \n")
         name = input("What is your name? \n>")
 
@@ -21,53 +22,179 @@ elif answer.lower() == "no":
             answer = input("Are you sure? \n>")
             if answer.lower() == "yes":
                 print("But you must catch them all!! ")
-                name = input("What is your name young pokemon master? \n")
+                input()
+                name = input("What is your name young pokemon master? \n>")
 
 print()
 location = input("Where are you from? \n>")
-
+print()
 print(name,"from", location, "lets determine your starter pokemon! \n") 
 print()
 
 while True:
     
-    q1_ans = input("Do you wish to have wings and fly away? \na) Yes away we go!, \nb) No thanks i'll walk, \nc) You dont need wings to fly. \n>")
+    q1_ans = input("Do you wish to have wings and fly away? \na) I prefer the sea. \nb) No thanks I'll walk. \nc) Yes, away we go! \nd) You dont need wings to fly. \n>")
 
     if q1_ans.lower() == "a":
-      affinity_total = + 3
+      affinity_total = + 1
       break    
     
     elif q1_ans.lower() == "b":
-      affinity_total = + 1
+      affinity_total = + 3
       break
             
     elif q1_ans.lower() == "c":
-      affinity_total = + 10
+      affinity_total = + 5
       break
-    else :
+   
+    elif q1_ans.lower() == "d":
+      affinity_total = + 10
+      break  
+
+    else:
       print()
       print("Please select an answer.")
       print()
       continue
 
-  while True:
-
-    q2_ans = input()
-
+while True:
+    q2_ans = input("Of the following, which is your ideal vacation destination? \na) Vermilion City \nb) Cerulean City \nc) Cinnabar City \nd) Pallet Town \n>")
     if q2_ans.lower() == "a":
+      affinity_total = + 1
+      break
+    elif q2_ans.lower() == "b":
+      affinity_total = + 3
+      break
+    elif q2_ans.lower() == "c":
+      affinity_total = + 5
+      break
+    elif q2_ans.lower() == "d":
+      affinity_total = + 10
+      break
+    else:
+      print()
+      print("Please select an answer.")
+      print()
+      continue
+
+
+while True:
+
+    q3_ans = input("What's one thing you won't forget before you leave home? \na) My Pokedex. \nb) PokePuffins. \nc) My Pokemons! \nd) The power of friendship. \n>")
+    if q3_ans.lower() == "a":
+      affinity_total = + 1
+      break
+    elif q3_ans.lower() == "b":
       affinity_total = + 3
       break
 
-    elif q2_ans.lower() == "b":
-      affinity_total = + 1
+    elif q3_ans.lower() == "c":
+      affinity_total = + 5
       break
 
-    elif q2_ans.lower() == "c":
-      affinity_total = + 10
+    elif q3_ans.lower() == "d":
+      affinity_total = + 5
       break
-    else :
+    
+    else:
       print()
       print("Please select an answer.")
       print()
       continue
+
+
+while True:
+    q4_ans = input("Which Pokemon trainer do you relate to the most? \na) Gary \nb) May \nc) Red \nd) Ash \n>")
+    if q4_ans.lower() == "a":
+      affinity_total = + 1
+      break
+
+    elif q4_ans.lower() == "b":
+      affinity_total = + 3
+      break
+
+    elif q4_ans.lower() == "c":
+      affinity_total = + 5
+      break
+    elif q4_ans.lower() == "d":
+      affinity_total = + 10
+      break  
+   
+    else:
+      print()
+      print("Please select an answer.")
+      print()
+      continue
+
+
+while True:
+
+    q5_ans = input("In your group of friends, you are the ... \na) friendly one. \nb) tough one. \nc) shy one. \nd)adventurous one. \n>")
+
+    if q5_ans.lower() == "a":
+      affinity_total = + 3
+      break
+
+    elif q5_ans.lower() == "b":
+      affinity_total = + 1
+      break
+
+    elif q5_ans.lower() == "c":
+      affinity_total = + 5
+      break
+
+    elif q5_ans.lower() == "d":
+      affinity_total = + 10
+      break
+    
+    else:
+      print()
+      print("Please select an answer.")
+      print()
+      continue
+
+
+while True:
+    q6_ans = input("Why would you battle other Pokemon? \na) For the experince. \nb) To defend myself. \nc) To be the strongest. \nd) To become the Pokemon Master! \n>")
+
+    if q6_ans.lower() == "a":
+      affinity_total = + 3
+      break
+
+    elif q6_ans.lower() == "b":
+      affinity_total = + 1
+      break
+
+    elif q6_ans.lower() == "c":
+      affinity_total = + 5
+      break
+    
+    elif q6_ans.lower() == "d":
+      affinity_total = + 10
+      break
+
+    else:
+      print()
+      print("Please select an answer.")
+      print()
+      continue
+
+print()
+print("caluculating... \n>")
+print()
+input()
+
+print()
+print("caluculating... \n>")
+print()
+input()
+
+print("Complete!.. \n>")
+input()
+
+print("You are", name, "from", location,", who left home to become the next Pokemon Master! \n>") 
+input()
+print("Congratulations your starter is", affinity_total)
+
+print(affinity_total)
 
