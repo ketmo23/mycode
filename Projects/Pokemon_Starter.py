@@ -31,6 +31,7 @@ print()
 print(name,"from", location, "lets determine your starter pokemon! \n") 
 print()
 
+#questions to determine pokemon
 while True:
     
     q1_ans = input("Do you wish to have wings and fly away? \na) I prefer the sea. \nb) No thanks I'll walk. \nc) Yes, away we go! \nd) You dont need wings to fly. \n>")
@@ -192,9 +193,28 @@ input()
 print("Complete!.. \n>")
 input()
 
-print("You are", name, "from", location,", who left home to become the next Pokemon Master! \n>") 
-input()
-print("Congratulations your starter is", affinity_total)
+#Possiblities from results 
+if affinity_total in range(1,8): 
+    print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
+    input()
+    print("Congratulations!! Your starter is Squirtl!")
 
+elif affinity_total in range(9,16):
+    print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
+    input()
+    print("Congratulations!! Your starter is Bulbasaur!")
+
+elif affinity_total in range (17,30):
+    print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
+    input()
+    print("Congratulations!! Your starter is Charmander!")
+
+elif affinity_total in range (31,50):
+    print("You are",name,"from",location,", who left home to become the next Pokemon Master! \n>")
+    input()
+    print("Congratulations!! Pikachu has chosen you!")
+
+#ref of points total
+print()
 print(affinity_total)
 
