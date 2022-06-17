@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""SECRET WIN CONDITION RPG CODE"""
+
 def showInstructions():
   #print a main menu and the commands
   print('''
