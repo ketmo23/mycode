@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# Determine Your Pokemon Starter
+
+
+"""Let's Determine Your Pokemon Starter"""
+
 import urllib.request
 from PIL import Image
 import time
