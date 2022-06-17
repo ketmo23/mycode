@@ -94,7 +94,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 while True:
     q2_ans = input(Questions["q2"])
@@ -116,7 +116,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 while True:
 
@@ -142,7 +142,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 while True:
     q4_ans = input(Questions["q4"])
@@ -167,7 +167,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 while True:
 
@@ -195,7 +195,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 while True:
     q6_ans = input(Questions["q6"])
@@ -222,7 +222,7 @@ while True:
         print()
         continue
 
-playsound.playsound("sound_file_path")
+playsound.playsound("C:\\Users\\etmo2\\Downloads\\Lvl.mp3")
 
 print()
 print("calculating... \n>")
@@ -233,8 +233,6 @@ print("calculating... \n>")
 time.sleep(1.5)
 
 print("Complete!.. \n>")
-
-playsound.playsound("sound_file_path")
 
 # Possibilities from results
 if affinity_total in range(1, 8):
@@ -284,7 +282,7 @@ elif affinity_total in range(17, 30):
     playsound.playsound("C:\\Users\\etmo2\\Downloads\\chaV.mp3")
 
 
-elif affinity_total in range(31, 50):
+elif affinity_total in range(31, 61):
     print("Congratulations", name, "!!")
     print()
     time.sleep(1.5)
@@ -300,6 +298,7 @@ elif affinity_total in range(31, 50):
     playsound.playsound("C:\\Users\\etmo2\\Downloads\\pkaV.mp3")
 
 # ref of points total
+
 print()
-print(affinity_total)
-print("Done")
+print("Total affinity points", affinity_total)
+print("Done") 
